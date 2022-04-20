@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E334AD725E2B80900F3CFAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E334AD625E2B80900F3CFAC /* AppDelegate.swift */; };
+		8E334AD925E2B80900F3CFAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E334AD825E2B80900F3CFAC /* SceneDelegate.swift */; };
+		8E334ADB25E2B80900F3CFAC /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E334ADA25E2B80900F3CFAC /* OverviewViewController.swift */; };
+		8E334ADE25E2B80900F3CFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E334ADC25E2B80900F3CFAC /* Main.storyboard */; };
+		8E334AE025E2B80C00F3CFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E334ADF25E2B80C00F3CFAC /* Assets.xcassets */; };
+		8E334AE325E2B80C00F3CFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E334AE125E2B80C00F3CFAC /* LaunchScreen.storyboard */; };
+		8E49CD2B25EAEFD100DD9EB1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E49CD2A25EAEFD100DD9EB1 /* SettingsViewController.swift */; };
+		8E49CD2E25EAF02B00DD9EB1 /* AlleventsViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E49CD2D25EAF02B00DD9EB1 /* AlleventsViewcontroller.swift */; };
+		8E5621F125E9CC1D00AA4D4D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5621F025E9CC1D00AA4D4D /* Extensions.swift */; };
+		8E624E7C25EEFCF600BE7F86 /* DayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624E7B25EEFCF600BE7F86 /* DayAxisValueFormatter.swift */; };
+		8E624E8425EF1AA500BE7F86 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624E8325EF1AA400BE7F86 /* CacheManager.swift */; };
+		8E624E8725EF230E00BE7F86 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624E8625EF230E00BE7F86 /* Favorites.swift */; };
+		8E624E8A25EF244000BE7F86 /* SqlColumnProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624E8925EF244000BE7F86 /* SqlColumnProtocol.swift */; };
+		8E624E8D25EF274D00BE7F86 /* DailyWorkOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624E8C25EF274D00BE7F86 /* DailyWorkOut.swift */; };
+		8E624E9025EF2B3100BE7F86 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624E8F25EF2B3100BE7F86 /* Repository.swift */; };
+		8E624E9325EF2C7500BE7F86 /* EventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624E9225EF2C7500BE7F86 /* EventRepository.swift */; };
+		8E624E9725F02F5500BE7F86 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624E9625F02F5500BE7F86 /* Contract.swift */; };
+		8E624E9B25F0339400BE7F86 /* ActivityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624E9A25F0339400BE7F86 /* ActivityRepository.swift */; };
+		8E624EA225F04CAB00BE7F86 /* SampleActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EA125F04CAB00BE7F86 /* SampleActivity.swift */; };
+		8E624EA525F05AA700BE7F86 /* ImageSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EA425F05AA700BE7F86 /* ImageSelectorViewController.swift */; };
+		8E624EA825F05D5A00BE7F86 /* SampleImagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EA725F05D5A00BE7F86 /* SampleImagesCell.swift */; };
+		8E624EAF25F0784C00BE7F86 /* SelectedImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EAE25F0784C00BE7F86 /* SelectedImageDetailViewController.swift */; };
+		8E624EB325F18E4400BE7F86 /* ImageAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EB225F18E4300BE7F86 /* ImageAnalyzer.swift */; };
+		8E624EB725F1AD3700BE7F86 /* CustomImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EB625F1AD3700BE7F86 /* CustomImageRequest.swift */; };
+		8E624EBC25F1C47900BE7F86 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EBB25F1C47900BE7F86 /* Enumeration.swift */; };
+		8E624EC025F2C53000BE7F86 /* RingFitCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EBF25F2C53000BE7F86 /* RingFitCategory.swift */; };
+		8E624EC825F2EC1100BE7F86 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EC725F2EC1100BE7F86 /* LibraryViewController.swift */; };
+		8E624ECC25F30DDC00BE7F86 /* FavoriteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624ECB25F30DDC00BE7F86 /* FavoriteRepository.swift */; };
+		8E624ECF25F3EC6700BE7F86 /* LibraryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624ECE25F3EC6700BE7F86 /* LibraryDetailViewController.swift */; };
+		8E624ED225F3EEBE00BE7F86 /* LibraryDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624ED125F3EEBE00BE7F86 /* LibraryDetailCell.swift */; };
+		8E624EDB25F519BE00BE7F86 /* EditContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EDA25F519BE00BE7F86 /* EditContext.swift */; };
+		8E624EDE25F522AC00BE7F86 /* ActivityDtoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EDD25F522AC00BE7F86 /* ActivityDtoCell.swift */; };
+		8E624EE125F55D1C00BE7F86 /* ButtonWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EE025F55D1C00BE7F86 /* ButtonWithImage.swift */; };
+		8E624EE525F5687D00BE7F86 /* ImageWithCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E624EE425F5687D00BE7F86 /* ImageWithCaption.swift */; };
+		8E6A4F1B25EB05F400B8C9DE /* RingFitActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A4F1A25EB05F400B8C9DE /* RingFitActivity.swift */; };
+		8E6A4F1E25EB06A500B8C9DE /* AssetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A4F1D25EB06A500B8C9DE /* AssetRepository.swift */; };
+		8E6A4F2625EB158B00B8C9DE /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A4F2525EB158B00B8C9DE /* Event.swift */; };
+		8E6A4F2925EB159A00B8C9DE /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A4F2825EB159A00B8C9DE /* Activity.swift */; };
+		8E6CAAD325F6C78400C5B7D3 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6CAAD225F6C78300C5B7D3 /* EventsViewController.swift */; };
+		8E71A43A25EC698F00AEB30F /* ActivityDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71A43925EC698F00AEB30F /* ActivityDto.swift */; };
+		8EC5806025F825F30012AAF7 /* RingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5805F25F825F30012AAF7 /* RingActivity.swift */; };
+		8EC5806325F829690012AAF7 /* RingActivityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5806225F829690012AAF7 /* RingActivityRepository.swift */; };
+		8EC5807A25F993860012AAF7 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5807925F993860012AAF7 /* ActivityCell.swift */; };
+		8EC5807D25FABDDF0012AAF7 /* DailyWorkoutRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5807C25FABDDE0012AAF7 /* DailyWorkoutRepository.swift */; };
+		8EC88D5A25E498AF00CFD49C /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 8EC88D5925E498AF00CFD49C /* SQLite */; };
+		8EC88D5F25E49B6100CFD49C /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 8EC88D5E25E49B6100CFD49C /* Charts */; };
+		8EC88D6625E49EF300CFD49C /* RecentActivityChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC88D6525E49EF300CFD49C /* RecentActivityChart.swift */; };
+		8EC88D8225E5D5C800CFD49C /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC88D8125E5D5C800CFD49C /* DataRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E334AD325E2B80900F3CFAC /* SS Fitness Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SS Fitness Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E334AD625E2B80900F3CFAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E334AD825E2B80900F3CFAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E334ADA25E2B80900F3CFAC /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		8E334ADD25E2B80900F3CFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E334ADF25E2B80C00F3CFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E334AE225E2B80C00F3CFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E334AE425E2B80C00F3CFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E49CD2A25EAEFD100DD9EB1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8E49CD2D25EAF02B00DD9EB1 /* AlleventsViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlleventsViewcontroller.swift; sourceTree = "<group>"; };
+		8E5621F025E9CC1D00AA4D4D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8E624E7B25EEFCF600BE7F86 /* DayAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayAxisValueFormatter.swift; sourceTree = "<group>"; };
+		8E624E8325EF1AA400BE7F86 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		8E624E8625EF230E00BE7F86 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		8E624E8925EF244000BE7F86 /* SqlColumnProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqlColumnProtocol.swift; sourceTree = "<group>"; };
+		8E624E8C25EF274D00BE7F86 /* DailyWorkOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWorkOut.swift; sourceTree = "<group>"; };
+		8E624E8F25EF2B3100BE7F86 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		8E624E9225EF2C7500BE7F86 /* EventRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRepository.swift; sourceTree = "<group>"; };
+		8E624E9625F02F5500BE7F86 /* Contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
+		8E624E9A25F0339400BE7F86 /* ActivityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRepository.swift; sourceTree = "<group>"; };
+		8E624EA125F04CAB00BE7F86 /* SampleActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleActivity.swift; sourceTree = "<group>"; };
+		8E624EA425F05AA700BE7F86 /* ImageSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorViewController.swift; sourceTree = "<group>"; };
+		8E624EA725F05D5A00BE7F86 /* SampleImagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleImagesCell.swift; sourceTree = "<group>"; };
+		8E624EAE25F0784C00BE7F86 /* SelectedImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageDetailViewController.swift; sourceTree = "<group>"; };
+		8E624EB225F18E4300BE7F86 /* ImageAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalyzer.swift; sourceTree = "<group>"; };
+		8E624EB625F1AD3700BE7F86 /* CustomImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageRequest.swift; sourceTree = "<group>"; };
+		8E624EBB25F1C47900BE7F86 /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
+		8E624EBF25F2C53000BE7F86 /* RingFitCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingFitCategory.swift; sourceTree = "<group>"; };
+		8E624EC725F2EC1100BE7F86 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		8E624ECB25F30DDC00BE7F86 /* FavoriteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRepository.swift; sourceTree = "<group>"; };
+		8E624ECE25F3EC6700BE7F86 /* LibraryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDetailViewController.swift; sourceTree = "<group>"; };
+		8E624ED125F3EEBE00BE7F86 /* LibraryDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDetailCell.swift; sourceTree = "<group>"; };
+		8E624EDA25F519BE00BE7F86 /* EditContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContext.swift; sourceTree = "<group>"; };
+		8E624EDD25F522AC00BE7F86 /* ActivityDtoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDtoCell.swift; sourceTree = "<group>"; };
+		8E624EE025F55D1C00BE7F86 /* ButtonWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithImage.swift; sourceTree = "<group>"; };
+		8E624EE425F5687D00BE7F86 /* ImageWithCaption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithCaption.swift; sourceTree = "<group>"; };
+		8E6A4F1A25EB05F400B8C9DE /* RingFitActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingFitActivity.swift; sourceTree = "<group>"; };
+		8E6A4F1D25EB06A500B8C9DE /* AssetRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetRepository.swift; sourceTree = "<group>"; };
+		8E6A4F2525EB158B00B8C9DE /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		8E6A4F2825EB159A00B8C9DE /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		8E6CAAD225F6C78300C5B7D3 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		8E71A43925EC698F00AEB30F /* ActivityDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDto.swift; sourceTree = "<group>"; };
+		8EC5805F25F825F30012AAF7 /* RingActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingActivity.swift; sourceTree = "<group>"; };
+		8EC5806225F829690012AAF7 /* RingActivityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingActivityRepository.swift; sourceTree = "<group>"; };
+		8EC5807925F993860012AAF7 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		8EC5807C25FABDDE0012AAF7 /* DailyWorkoutRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWorkoutRepository.swift; sourceTree = "<group>"; };
+		8EC88D6525E49EF300CFD49C /* RecentActivityChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentActivityChart.swift; sourceTree = "<group>"; };
+		8EC88D8125E5D5C800CFD49C /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E334AD025E2B80900F3CFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC88D5A25E498AF00CFD49C /* SQLite in Frameworks */,
+				8EC88D5F25E49B6100CFD49C /* Charts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E334ACA25E2B80900F3CFAC = {
+			isa = PBXGroup;
+			children = (
+				8E334AD525E2B80900F3CFAC /* SS Fitness Tracker */,
+				8E334AD425E2B80900F3CFAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E334AD425E2B80900F3CFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E334AD325E2B80900F3CFAC /* SS Fitness Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E334AD525E2B80900F3CFAC /* SS Fitness Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				8E624E7A25EEFCE500BE7F86 /* Helpers */,
+				8E49CD2225EAE86F00DD9EB1 /* Application */,
+				8E49CD2825EAEA2E00DD9EB1 /* Boards */,
+				8E49CD1F25EAE7C600DD9EB1 /* Controllers */,
+				8E49CD2125EAE83A00DD9EB1 /* Data */,
+				8E49CD2725EAE9F200DD9EB1 /* Views */,
+				8E334ADF25E2B80C00F3CFAC /* Assets.xcassets */,
+				8E334AE425E2B80C00F3CFAC /* Info.plist */,
+			);
+			path = "SS Fitness Tracker";
+			sourceTree = "<group>";
+		};
+		8E49CD1F25EAE7C600DD9EB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E334ADA25E2B80900F3CFAC /* OverviewViewController.swift */,
+				8E49CD2A25EAEFD100DD9EB1 /* SettingsViewController.swift */,
+				8E49CD2D25EAF02B00DD9EB1 /* AlleventsViewcontroller.swift */,
+				8E624EA425F05AA700BE7F86 /* ImageSelectorViewController.swift */,
+				8E624EAE25F0784C00BE7F86 /* SelectedImageDetailViewController.swift */,
+				8E624EC725F2EC1100BE7F86 /* LibraryViewController.swift */,
+				8E624ECE25F3EC6700BE7F86 /* LibraryDetailViewController.swift */,
+				8E6CAAD225F6C78300C5B7D3 /* EventsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8E49CD2125EAE83A00DD9EB1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8E624ED925F5198900BE7F86 /* Application */,
+				8E624EB525F1AD1500BE7F86 /* ImageHelpers */,
+				8E6A4F2325EB11E300B8C9DE /* Contracts */,
+				8E624E9925F0336F00BE7F86 /* Repositories */,
+				8E624E8325EF1AA400BE7F86 /* CacheManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8E49CD2225EAE86F00DD9EB1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8E334AD625E2B80900F3CFAC /* AppDelegate.swift */,
+				8E334AD825E2B80900F3CFAC /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8E49CD2725EAE9F200DD9EB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EC88D6525E49EF300CFD49C /* RecentActivityChart.swift */,
+				8E624EA725F05D5A00BE7F86 /* SampleImagesCell.swift */,
+				8E624ED125F3EEBE00BE7F86 /* LibraryDetailCell.swift */,
+				8E624EDD25F522AC00BE7F86 /* ActivityDtoCell.swift */,
+				8E624EE025F55D1C00BE7F86 /* ButtonWithImage.swift */,
+				8E624EE425F5687D00BE7F86 /* ImageWithCaption.swift */,
+				8EC5807925F993860012AAF7 /* ActivityCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E49CD2825EAEA2E00DD9EB1 /* Boards */ = {
+			isa = PBXGroup;
+			children = (
+				8E334ADC25E2B80900F3CFAC /* Main.storyboard */,
+				8E334AE125E2B80C00F3CFAC /* LaunchScreen.storyboard */,
+			);
+			path = Boards;
+			sourceTree = "<group>";
+		};
+		8E624E7A25EEFCE500BE7F86 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8E5621F025E9CC1D00AA4D4D /* Extensions.swift */,
+				8E624E7B25EEFCF600BE7F86 /* DayAxisValueFormatter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8E624E9925F0336F00BE7F86 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				8E6A4F1D25EB06A500B8C9DE /* AssetRepository.swift */,
+				8EC88D8125E5D5C800CFD49C /* DataRepository.swift */,
+				8E624E8F25EF2B3100BE7F86 /* Repository.swift */,
+				8E624E9225EF2C7500BE7F86 /* EventRepository.swift */,
+				8E624E9A25F0339400BE7F86 /* ActivityRepository.swift */,
+				8E624ECB25F30DDC00BE7F86 /* FavoriteRepository.swift */,
+				8EC5806225F829690012AAF7 /* RingActivityRepository.swift */,
+				8EC5807C25FABDDE0012AAF7 /* DailyWorkoutRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		8E624EB525F1AD1500BE7F86 /* ImageHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				8E624EB225F18E4300BE7F86 /* ImageAnalyzer.swift */,
+				8E624EB625F1AD3700BE7F86 /* CustomImageRequest.swift */,
+			);
+			path = ImageHelpers;
+			sourceTree = "<group>";
+		};
+		8E624ED925F5198900BE7F86 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8E624EDA25F519BE00BE7F86 /* EditContext.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8E6A4F2325EB11E300B8C9DE /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				8E6A4F1A25EB05F400B8C9DE /* RingFitActivity.swift */,
+				8E6A4F2525EB158B00B8C9DE /* Event.swift */,
+				8E6A4F2825EB159A00B8C9DE /* Activity.swift */,
+				8E71A43925EC698F00AEB30F /* ActivityDto.swift */,
+				8E624E8625EF230E00BE7F86 /* Favorites.swift */,
+				8E624E8925EF244000BE7F86 /* SqlColumnProtocol.swift */,
+				8E624E8C25EF274D00BE7F86 /* DailyWorkOut.swift */,
+				8E624E9625F02F5500BE7F86 /* Contract.swift */,
+				8E624EA125F04CAB00BE7F86 /* SampleActivity.swift */,
+				8E624EBB25F1C47900BE7F86 /* Enumeration.swift */,
+				8E624EBF25F2C53000BE7F86 /* RingFitCategory.swift */,
+				8EC5805F25F825F30012AAF7 /* RingActivity.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E334AD225E2B80900F3CFAC /* SS Fitness Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E334AE725E2B80C00F3CFAC /* Build configuration list for PBXNativeTarget "SS Fitness Tracker" */;
+			buildPhases = (
+				8E334ACF25E2B80900F3CFAC /* Sources */,
+				8E334AD025E2B80900F3CFAC /* Frameworks */,
+				8E334AD125E2B80900F3CFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SS Fitness Tracker";
+			packageProductDependencies = (
+				8EC88D5925E498AF00CFD49C /* SQLite */,
+				8EC88D5E25E49B6100CFD49C /* Charts */,
+			);
+			productName = "SS Fitness Tracker";
+			productReference = 8E334AD325E2B80900F3CFAC /* SS Fitness Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E334ACB25E2B80900F3CFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8E334AD225E2B80900F3CFAC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8E334ACE25E2B80900F3CFAC /* Build configuration list for PBXProject "SS Fitness Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E334ACA25E2B80900F3CFAC;
+			packageReferences = (
+				8EC88D5825E498AF00CFD49C /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+				8EC88D5D25E49B6100CFD49C /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			productRefGroup = 8E334AD425E2B80900F3CFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E334AD225E2B80900F3CFAC /* SS Fitness Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E334AD125E2B80900F3CFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E334AE325E2B80C00F3CFAC /* LaunchScreen.storyboard in Resources */,
+				8E334AE025E2B80C00F3CFAC /* Assets.xcassets in Resources */,
+				8E334ADE25E2B80900F3CFAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E334ACF25E2B80900F3CFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E624E9B25F0339400BE7F86 /* ActivityRepository.swift in Sources */,
+				8EC88D6625E49EF300CFD49C /* RecentActivityChart.swift in Sources */,
+				8E624EE125F55D1C00BE7F86 /* ButtonWithImage.swift in Sources */,
+				8E624E8425EF1AA500BE7F86 /* CacheManager.swift in Sources */,
+				8EC5807A25F993860012AAF7 /* ActivityCell.swift in Sources */,
+				8E6A4F2625EB158B00B8C9DE /* Event.swift in Sources */,
+				8E624E7C25EEFCF600BE7F86 /* DayAxisValueFormatter.swift in Sources */,
+				8E624EA525F05AA700BE7F86 /* ImageSelectorViewController.swift in Sources */,
+				8EC88D8225E5D5C800CFD49C /* DataRepository.swift in Sources */,
+				8E624EA225F04CAB00BE7F86 /* SampleActivity.swift in Sources */,
+				8EC5806325F829690012AAF7 /* RingActivityRepository.swift in Sources */,
+				8E624EB725F1AD3700BE7F86 /* CustomImageRequest.swift in Sources */,
+				8E624E9325EF2C7500BE7F86 /* EventRepository.swift in Sources */,
+				8E624EC825F2EC1100BE7F86 /* LibraryViewController.swift in Sources */,
+				8E49CD2E25EAF02B00DD9EB1 /* AlleventsViewcontroller.swift in Sources */,
+				8E624EBC25F1C47900BE7F86 /* Enumeration.swift in Sources */,
+				8E6A4F1E25EB06A500B8C9DE /* AssetRepository.swift in Sources */,
+				8E624ECF25F3EC6700BE7F86 /* LibraryDetailViewController.swift in Sources */,
+				8E334ADB25E2B80900F3CFAC /* OverviewViewController.swift in Sources */,
+				8E71A43A25EC698F00AEB30F /* ActivityDto.swift in Sources */,
+				8E6A4F2925EB159A00B8C9DE /* Activity.swift in Sources */,
+				8E334AD725E2B80900F3CFAC /* AppDelegate.swift in Sources */,
+				8E6CAAD325F6C78400C5B7D3 /* EventsViewController.swift in Sources */,
+				8EC5807D25FABDDF0012AAF7 /* DailyWorkoutRepository.swift in Sources */,
+				8E624EB325F18E4400BE7F86 /* ImageAnalyzer.swift in Sources */,
+				8E624ECC25F30DDC00BE7F86 /* FavoriteRepository.swift in Sources */,
+				8E624E9725F02F5500BE7F86 /* Contract.swift in Sources */,
+				8E624EC025F2C53000BE7F86 /* RingFitCategory.swift in Sources */,
+				8E624E9025EF2B3100BE7F86 /* Repository.swift in Sources */,
+				8E624EDE25F522AC00BE7F86 /* ActivityDtoCell.swift in Sources */,
+				8E624ED225F3EEBE00BE7F86 /* LibraryDetailCell.swift in Sources */,
+				8E6A4F1B25EB05F400B8C9DE /* RingFitActivity.swift in Sources */,
+				8E334AD925E2B80900F3CFAC /* SceneDelegate.swift in Sources */,
+				8E624EAF25F0784C00BE7F86 /* SelectedImageDetailViewController.swift in Sources */,
+				8E624EA825F05D5A00BE7F86 /* SampleImagesCell.swift in Sources */,
+				8E624E8D25EF274D00BE7F86 /* DailyWorkOut.swift in Sources */,
+				8E624EE525F5687D00BE7F86 /* ImageWithCaption.swift in Sources */,
+				8EC5806025F825F30012AAF7 /* RingActivity.swift in Sources */,
+				8E624EDB25F519BE00BE7F86 /* EditContext.swift in Sources */,
+				8E624E8A25EF244000BE7F86 /* SqlColumnProtocol.swift in Sources */,
+				8E624E8725EF230E00BE7F86 /* Favorites.swift in Sources */,
+				8E5621F125E9CC1D00AA4D4D /* Extensions.swift in Sources */,
+				8E49CD2B25EAEFD100DD9EB1 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E334ADC25E2B80900F3CFAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E334ADD25E2B80900F3CFAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E334AE125E2B80C00F3CFAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E334AE225E2B80C00F3CFAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E334AE525E2B80C00F3CFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E334AE625E2B80C00F3CFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E334AE825E2B80C00F3CFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VG7BFWU9B;
+				INFOPLIST_FILE = "SS Fitness Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ssavovic.SS-Fitness-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8E334AE925E2B80C00F3CFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VG7BFWU9B;
+				INFOPLIST_FILE = "SS Fitness Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ssavovic.SS-Fitness-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E334ACE25E2B80900F3CFAC /* Build configuration list for PBXProject "SS Fitness Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E334AE525E2B80C00F3CFAC /* Debug */,
+				8E334AE625E2B80C00F3CFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E334AE725E2B80C00F3CFAC /* Build configuration list for PBXNativeTarget "SS Fitness Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E334AE825E2B80C00F3CFAC /* Debug */,
+				8E334AE925E2B80C00F3CFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8EC88D5825E498AF00CFD49C /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.12.2;
+			};
+		};
+		8EC88D5D25E49B6100CFD49C /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8EC88D5925E498AF00CFD49C /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8EC88D5825E498AF00CFD49C /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+		8EC88D5E25E49B6100CFD49C /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8EC88D5D25E49B6100CFD49C /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8E334ACB25E2B80900F3CFAC /* Project object */;
+}

@@ -1,0 +1,894 @@
+[
+	{
+		"CategoryId": "c32148cf-71a0-47b8-abf5-303eac9e2169",
+		"ActivitySource": "5ef5e727-880c-49c8-8678-08267c154427",
+		"Name": "Back Press",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "220",
+		"HashTags": [
+			"Upper",
+			"Arms",
+			"Posture",
+			"Shoulders"
+		],
+		"LocationFound": "Skill Tree (Unlocked Lv.40"
+	},
+	{
+		"CategoryId": "c32148cf-71a0-47b8-abf5-303eac9e2169",
+		"ActivitySource": "ad19ebad-731c-4dc0-83ae-cc5f3415e16a",
+		"Name": "Shoulder Press",
+		"Range": "",
+		"IsRecovery": true,
+		"CoolDown": 3,
+		"Power": "❤️ x 6",
+		"HashTags": [
+			"Upper",
+			"Arms",
+			"Posture",
+			"Shoulders"
+		],
+		"LocationFound": "Skill Tree (Unlocked Lv. 40)"
+	},
+	{
+		"CategoryId": "c32148cf-71a0-47b8-abf5-303eac9e2169",
+		"ActivitySource": "776d4377-5125-446d-b96f-88ebee916321",
+		"Name": "Overhead Arm Spin",
+		"Range": "⚫⚫⚫⚫⚫",
+		"IsRecovery": false,
+		"CoolDown": 3,
+		"Power": "90",
+		"HashTags": [
+			"Upper",
+			"Arms",
+			"Shoulders",
+			"Posture"
+		],
+		"LocationFound": "Lv. 47"
+	},
+	{
+		"CategoryId": "c32148cf-71a0-47b8-abf5-303eac9e2169",
+		"ActivitySource": "642ee869-fc80-4d31-8b99-3f63548f2a9d",
+		"Name": "Overhead Arm Twist",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "90",
+		"HashTags": [
+			"Upper",
+			"Arms",
+			"Shoulders",
+			"Core"
+		],
+		"LocationFound": "Lv. 29"
+	},
+	{
+		"CategoryId": "c32148cf-71a0-47b8-abf5-303eac9e2169",
+		"ActivitySource": "a2ccb27a-0fd5-4ba6-a6cd-7c70f829ee6a",
+		"Name": "Bow Pull",
+		"Range": "⚫⚫⚫⚫⚫",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "35",
+		"HashTags": [
+			"Upper",
+			"Arms",
+			"Trapezius",
+			"Core"
+		],
+		"LocationFound": "Lv. 17"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "0491b1c9-d072-47b9-9a90-983b9d4f1ad8",
+		"Name": "Seated Ring Raise",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "220",
+		"HashTags": [
+			"Abs",
+			"Legs",
+			"Core"
+		],
+		"LocationFound": "Skill Tree (Unlocked Lv. 40)"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "e8e705ad-98e0-43e4-81b9-b5f8f68d2ad3",
+		"Name": "Overhead Side Bend",
+		"Range": "",
+		"IsRecovery": true,
+		"CoolDown": 3,
+		"Power": "❤️ x 7",
+		"HashTags": [
+			"Waist",
+			"Core",
+			"Upper",
+			"Arms"
+		],
+		"LocationFound": "Lv. 65"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "d9e8190a-0838-4e30-b37a-937fd646d558",
+		"Name": "Russian Twist",
+		"Range": "⚫⚫⚫⚫⚫",
+		"IsRecovery": false,
+		"CoolDown": 3,
+		"Power": "130",
+		"HashTags": [
+			"Waist",
+			"Abs",
+			"Core"
+		],
+		"LocationFound": "World 9's Chest Set"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "9537967f-99c2-41e2-af7f-c451e1ee53a5",
+		"Name": "Leg Scissors",
+		"Range": "● ⚫⚫⚫ ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "135",
+		"HashTags": [
+			"Abs",
+			"Legs",
+			"Aerobic"
+		],
+		"LocationFound": "World 8 Map Treasure Chest"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "eb81d3be-3493-4113-b7e5-345c38811872",
+		"Name": "Pendulum Bend",
+		"Range": "● ⚫⚫⚫ ●",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "2",
+		"HashTags": [
+			"Abs",
+            "Lower Body",
+            "Core"
+		],
+		"LocationFound": "#Waist #Lower Body #Core"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "0ac2256b-519e-4abc-b80a-e528eb46b85f",
+		"Name": "Flutter Kick",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "175",
+		"HashTags": [
+			"Abs",
+			"Legs"
+		],
+		"LocationFound": "Skill Tree (Unlocked Lv. 40)"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "e3dc7d10-4475-4b58-9019-4e8d9d99062a",
+		"Name": "Leg Raise",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "175",
+		"HashTags": [
+			"Abs",
+			"Core"
+		],
+		"LocationFound": "Lv. 56"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "b4267ca4-58ef-4095-82da-03b0527382cf",
+		"Name": "Overhead Lunge Twist",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "155",
+		"HashTags": [
+			"Waist",
+			"Legs",
+			"Core"
+		],
+		"LocationFound": "Lv. 50"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "54f9e7d5-a60f-4032-b226-f87b9c29419a",
+		"Name": "Seated Forward Press",
+		"Range": "",
+		"IsRecovery": true,
+		"CoolDown": 3,
+		"Power": "❤️ x 5",
+		"HashTags": [
+			"Upper",
+			"Arms",
+			"Abs",
+			"Flexibility"
+		],
+		"LocationFound": "World 6 Map Treasure Chest"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "25e8a843-d6e8-4cc3-a6fc-9b53334c1adc",
+		"Name": "Overhead Hip Shake",
+		"Range": "⚫⚫⚫⚫⚫",
+		"IsRecovery": false,
+		"CoolDown": 3,
+		"Power": "70",
+		"HashTags": [
+			"Waist",
+			"Aerobic",
+			"Upper",
+			"Arms"
+		],
+		"LocationFound": "Lv. 38"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "379b40a7-5474-49b6-9152-1a9f86381e15",
+		"Name": "Open & Close Leg Raise",
+		"Range": "",
+		"IsRecovery": true,
+		"CoolDown": 3,
+		"Power": "❤️ x 5",
+		"HashTags": [
+			"Abs",
+			"Legs",
+			"Glutes"
+		],
+		"LocationFound": "World 5 Map Treasure Chest"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "3a8e813b-2d97-45bf-a1c4-55e4623ceccb",
+		"Name": "Overhead Bend",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 1,
+		"Power": "80",
+		"HashTags": [
+			"Core",
+			"Posture",
+			"Trapezius"
+		],
+		"LocationFound": "World 4 Map Treasure Chest"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "76c7be30-5767-4f95-a4cc-d6eea42c93fd",
+		"Name": "Plank",
+		"Range": "● ⚫⚫⚫ ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "50",
+		"HashTags": [
+			"Abs",
+			"Core",
+			"Posture"
+		],
+		"LocationFound": "Lv. 20"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "b6a9375a-4862-4650-8363-4c003a2377c4",
+		"Name": "Standing Twist",
+		"Range": "⚫⚫⚫⚫⚫",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "20",
+		"HashTags": [
+			"Waist",
+			"Aerobic"
+		],
+		"LocationFound": "Lv. 8"
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"ActivitySource": "2f0942d5-4a57-4a07-9385-725313f92792",
+		"Name": "Knee-to-Chest",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 1,
+		"Power": "30",
+		"HashTags": [
+			"Abs",
+			"Upper",
+			"Arms",
+			"Core"
+		],
+		"LocationFound": "Lv. 1"
+	},
+	{
+		"CategoryId": "46e40db8-7052-4a2e-98e4-5d5773dbcb66",
+		"ActivitySource": "adb26979-558f-4350-9a92-59c28668f434",
+		"Name": "Knee-Lift Combo",
+		"Range": "● ⚫⚫⚫ ●",
+		"IsRecovery": false,
+		"CoolDown": 3,
+		"Power": "165",
+		"HashTags": [
+			"Legs",
+			"Glutes",
+			"Aerobic"
+		],
+		"LocationFound": "Lv. 71"
+	},
+	{
+		"CategoryId": "46e40db8-7052-4a2e-98e4-5d5773dbcb66",
+		"ActivitySource": "557e71d6-06ed-4773-9c3b-e7aee24e6856",
+		"Name": "Side Step",
+		"Range": "● ⚫⚫⚫ ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "160",
+		"HashTags": [
+			"Upper",
+			"Arms",
+			"Legs",
+			"Aerobic"
+		],
+		"LocationFound": "Skill Tree (Unlocked Lv. 40)"
+	},
+	{
+		"CategoryId": "46e40db8-7052-4a2e-98e4-5d5773dbcb66",
+		"ActivitySource": "bd9918a4-9712-425d-a443-737d5f658cd7",
+		"Name": "Mountain Climber",
+		"Range": "⚫⚫⚫⚫⚫",
+		"IsRecovery": false,
+		"CoolDown": 3,
+		"Power": "120",
+		"HashTags": [
+			"Legs",
+			"Upper",
+			"Arms",
+			"Glutes"
+		],
+		"LocationFound": "Lv. 59"
+	},
+	{
+		"CategoryId": "46e40db8-7052-4a2e-98e4-5d5773dbcb66",
+		"ActivitySource": "2919e485-acb8-47fc-a475-0bfc20705211",
+		"Name": "Overhead Squat",
+		"Range": "⚫⚫⚫⚫⚫",
+		"IsRecovery": false,
+		"CoolDown": 3,
+		"Power": "110",
+		"HashTags": [
+			"Legs",
+			"Glutes",
+			"Aerobic"
+		],
+		"LocationFound": "Skill Tree (Unlocked Lv. 40)"
+	},
+	{
+		"CategoryId": "46e40db8-7052-4a2e-98e4-5d5773dbcb66",
+		"ActivitySource": "02f361f0-ab4a-4a87-a165-61c94938bae4",
+		"Name": "Ring Raise Combo",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "155",
+		"HashTags": [
+			"Legs",
+			"Glutes",
+			"Aerobic"
+		],
+		"LocationFound": "World 7's Gluting Gallery"
+	},
+	{
+		"CategoryId": "46e40db8-7052-4a2e-98e4-5d5773dbcb66",
+		"ActivitySource": "3c3e1a7e-8f70-4165-b8fc-6421cb4e0a11",
+		"Name": "Hip Lift",
+		"Range": "",
+		"IsRecovery": true,
+		"CoolDown": 3,
+		"Power": "❤️ x 6",
+		"HashTags": [
+			"Legs",
+			"Glutes",
+			"Core"
+		],
+		"LocationFound": "Lv. 44"
+	},
+	{
+		"CategoryId": "46e40db8-7052-4a2e-98e4-5d5773dbcb66",
+		"ActivitySource": "07a13e2e-1d05-411d-b203-3f01c055ebcc",
+		"Name": "Wide Squat",
+		"Range": "● ⚫⚫⚫ ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "85",
+		"HashTags": [
+			"Legs",
+			"Glutes",
+			"Aerobic"
+		],
+		"LocationFound": "Lv. 35"
+	},
+	{
+		"CategoryId": "46e40db8-7052-4a2e-98e4-5d5773dbcb66",
+		"ActivitySource": "55bec760-083e-42a0-9923-6165db2ca6b6",
+		"Name": "Thigh Press",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 1,
+		"Power": "80",
+		"HashTags": [
+			"Legs",
+			"Lower",
+			"Body",
+			"Posture"
+		],
+		"LocationFound": "Lv. 23"
+	},
+	{
+		"CategoryId": "46e40db8-7052-4a2e-98e4-5d5773dbcb66",
+		"ActivitySource": "7a2a4596-a8b5-42d9-a1db-bbd93ecbcadc",
+		"Name": "Knee Lift",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 1,
+		"Power": "50",
+		"HashTags": [
+			"Abs",
+			"Legs",
+			"Aerobic"
+		],
+		"LocationFound": "Lv. 11"
+	},
+	{
+		"CategoryId": "46e40db8-7052-4a2e-98e4-5d5773dbcb66",
+		"ActivitySource": "515e5ca4-9fde-4e06-b553-9f5b291b3487",
+		"Name": "Squat",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 1,
+		"Power": "30",
+		"HashTags": [
+			"Legs",
+			"Glutes",
+			"Aerobic"
+		],
+		"LocationFound": "Lv. 1"
+	},
+	{
+		"CategoryId": "83cbf287-a472-4e61-813d-63939e9fb300",
+		"ActivitySource": "c7ce50d8-4bd1-432e-a025-3e4af3434ac9",
+		"Name": "Boat Pose",
+		"Range": "⚫⚫⚫⚫⚫",
+		"IsRecovery": false,
+		"CoolDown": 3,
+		"Power": "155",
+		"HashTags": [
+			"Abs",
+			"Core",
+			"Stamina"
+		],
+		"LocationFound": "World 10 Map Treasure Chest"
+	},
+	{
+		"CategoryId": "83cbf287-a472-4e61-813d-63939e9fb300",
+		"ActivitySource": "df4cf40a-cdd2-48a3-8044-35d5d97f10c0",
+		"Name": "Standing Forward Fold",
+		"Range": "",
+		"IsRecovery": true,
+		"CoolDown": 3,
+		"Power": "❤️ x 8",
+		"HashTags": [
+			"Upper",
+			"Arms",
+			"Shoulders",
+			"Flexibility"
+		],
+		"LocationFound": "Skill Tree (Unlocked Lv. 40)"
+	},
+	{
+		"CategoryId": "83cbf287-a472-4e61-813d-63939e9fb300",
+		"ActivitySource": "37b80703-f5b9-402c-88c9-728329990054",
+		"Name": "Tree Pose",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "220",
+		"HashTags": [
+			"Legs",
+			"Lower",
+			"Body",
+			"Posture"
+		],
+		"LocationFound": "Lv. 68"
+	},
+	{
+		"CategoryId": "83cbf287-a472-4e61-813d-63939e9fb300",
+		"ActivitySource": "4d92930b-9378-40d4-b630-0660e2490ea4",
+		"Name": "Hinge Pose",
+		"Range": "● ⚫⚫⚫ ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "125",
+		"HashTags": [
+			"Shoulders",
+			"Legs",
+			"Back"
+		],
+		"LocationFound": "Lv. 53"
+	},
+	{
+		"CategoryId": "83cbf287-a472-4e61-813d-63939e9fb300",
+		"ActivitySource": "029efebb-61a6-47c3-ac2e-a4a93bf108a5",
+		"Name": "Warrior III Pose",
+		"Range": "● ⚫⚫⚫ ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "125",
+		"HashTags": [
+			"Aerobic",
+			"Core",
+			"Stamina"
+		],
+		"LocationFound": "Skill Tree (Unlocked Lv. 40)"
+	},
+	{
+		"CategoryId": "83cbf287-a472-4e61-813d-63939e9fb300",
+		"ActivitySource": "d2b692e5-de2d-4487-a559-1b584bed0bdb",
+		"Name": "Revolved Crescent Lunge Pose",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "130",
+		"HashTags": [
+			"Waist",
+			"Lower",
+			"Body",
+			"Core"
+		],
+		"LocationFound": "Lv. 41"
+	},
+	{
+		"CategoryId": "83cbf287-a472-4e61-813d-63939e9fb300",
+		"ActivitySource": "75f023d5-dea4-4145-9d00-bcb5c57a16c2",
+		"Name": "Warrior II Pose",
+		"Range": "⚫⚫⚫⚫⚫",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "60",
+		"HashTags": [
+			"Chest",
+			"Upper",
+			"Arms",
+			"Shoulders"
+		],
+		"LocationFound": "Lv. 32"
+	},
+	{
+		"CategoryId": "83cbf287-a472-4e61-813d-63939e9fb300",
+		"ActivitySource": "fac59314-7720-490f-b14d-36112a300af5",
+		"Name": "Fan Pose",
+		"Range": "",
+		"IsRecovery": true,
+		"CoolDown": 3,
+		"Power": "❤️ x 4",
+		"HashTags": [
+			"Chest",
+			"Flexibility",
+			"Shoulders"
+		],
+		"LocationFound": "Lv. 26"
+	},
+	{
+		"CategoryId": "83cbf287-a472-4e61-813d-63939e9fb300",
+		"ActivitySource": "9f0c4ed9-1a35-4e12-ba25-2806bdb28f43",
+		"Name": "Warrior I Pose",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 1,
+		"Power": "60",
+		"HashTags": [
+			"Lower",
+			"Body",
+			"Aerobic",
+			"Posture"
+		],
+		"LocationFound": "Lv. 14"
+	},
+	{
+		"CategoryId": "83cbf287-a472-4e61-813d-63939e9fb300",
+		"ActivitySource": "7e0d039d-83af-445a-a03c-a066e741edf3",
+		"Name": "Chair Pose",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 1,
+		"Power": "30",
+		"HashTags": [
+			"Lower",
+			"Body",
+			"Core",
+			"Stamina"
+		],
+		"LocationFound": "Lv. 1"
+	},
+	{
+		"CategoryId": "c32148cf-71a0-47b8-abf5-303eac9e2169",
+		"ActivitySource": "1e05b8c3-44c1-4056-a8bd-5897f0585c61",
+		"Name": "Overhead Press",
+		"Range": "●  ● ⚫ ● ●",
+		"IsRecovery": false,
+		"CoolDown": 1,
+		"Power": "30",
+		"HashTags": [
+			"Upper",
+			"Arms",
+			"Chest",
+			"Shoulders"
+		],
+		"LocationFound": "Lv. 1"
+	},
+	{
+		"CategoryId": "c32148cf-71a0-47b8-abf5-303eac9e2169",
+		"ActivitySource": "b7d1fac5-9de9-474e-826e-707d62ee04bd",
+		"Name": "Front Press",
+		"Range": "● ⚫⚫⚫ ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "25",
+		"HashTags": [
+			"Chest"
+		],
+		"LocationFound": "Lv. 5"
+	},
+	{
+		"CategoryId": "c32148cf-71a0-47b8-abf5-303eac9e2169",
+		"ActivitySource": "630a4b17-3fd1-4fd5-95c2-f74b93840cb7",
+		"Name": "Tricep Kickback",
+		"Range": "● ⚫⚫⚫ ●",
+		"IsRecovery": false,
+		"CoolDown": 2,
+		"Power": "145",
+		"HashTags": [
+			"Upper",
+			"Arms"
+		],
+		"LocationFound": "Lv. 62"
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "d13b0565-621e-4e86-ac5e-4227b2bf48b8",
+		"Name": "Squat Hold",
+		"Range": "Defense",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Legs"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "37aabbdd-782c-4bc8-a7f0-dabaa5050f65",
+		"Name": "Knee Lift Rush",
+		"Range": "Defense",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Legs"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "976550c6-f46d-44bd-9044-20173415ca21",
+		"Name": "Overhead Hip Shake Rush",
+		"Range": "Defense",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Stomach"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "2838781d-d062-415a-a125-cff41980836d",
+		"Name": "Ring Press",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Arms"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "547951d8-56ff-40fe-91a4-d4d425793f6a",
+		"Name": "Low Ring Press",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Legs"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "4f0a8d3e-aca7-46fb-8385-f55c7f8b42d6",
+		"Name": "Abdominal Press",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Legs"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "8a4ae297-467a-4b19-82ee-023c8172fc5f",
+		"Name": "Dash",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Running"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "b0e28512-b1b1-43ba-a731-89da94ca5135",
+		"Name": "Jogging",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Running"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "1cc82b0b-fc32-4990-a6f0-070186abfaac",
+		"Name": "Overhead",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Arms"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "de673a65-0e61-44e4-a360-bf2d61cfdb18",
+		"Name": "Rush Lift",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Legs"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "a8f1d9c2-f081-4eaf-b934-5afec088d7cc",
+		"Name": "Swing Climber",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Arms"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "051c7eda-1f61-411f-9d12-4fee03dadf48",
+		"Name": "Ring Pull & Hold",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Arms"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "b5e895a5-aff4-4a12-93bb-9cac668e6204",
+		"Name": "Abdominal Twist Press Rush",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Stomach"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "89e76575-7dcf-4649-ad66-9b499f4fc970",
+		"Name": "Low Ring Press Hold",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Stomach"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "68483802-f698-4c3a-a7ba-cdb91a279edf",
+		"Name": "Abdominal Press Side Bend",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Stomach"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "0a18b516-d628-4511-b47c-25a2919fb18d",
+		"Name": "Overhead Abdominal Press Side Bend",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Arms"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "ff991d13-39e8-4675-afdc-1cb9613ceb1c",
+		"Name": "Ring Pull",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Stomach"
+		],
+		"LocationFound": ""
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"ActivitySource": "57de0e68-162c-4cbf-82fa-b7ae132665e1",
+		"Name": "Pedal Rush",
+		"Range": "",
+		"IsRecovery": false,
+		"CoolDown": 0,
+		"Power": "",
+		"HashTags": [
+			"Legs"
+		],
+		"LocationFound": ""
+	}
+]

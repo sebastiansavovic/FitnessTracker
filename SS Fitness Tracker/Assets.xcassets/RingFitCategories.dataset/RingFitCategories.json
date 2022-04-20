@@ -1,0 +1,27 @@
+[
+	{
+		"CategoryId": "c32148cf-71a0-47b8-abf5-303eac9e2169",
+		"Name": "Arms",
+        "CanFavorite": true
+	},
+	{
+		"CategoryId": "db3511d3-ba1f-4d05-b720-7332977f6937",
+		"Name": "Stomach",
+        "CanFavorite": true
+	},
+	{
+		"CategoryId": "46e40db8-7052-4a2e-98e4-5d5773dbcb66",
+		"Name": "Legs",
+        "CanFavorite": true
+	},
+	{
+		"CategoryId": "83cbf287-a472-4e61-813d-63939e9fb300",
+		"Name": "Yoga",
+        "CanFavorite": true
+	},
+	{
+		"CategoryId": "6da645d9-596d-481c-90d0-b1409a9bd2c8",
+		"Name": "Other",
+        "CanFavorite": false
+	}
+]
